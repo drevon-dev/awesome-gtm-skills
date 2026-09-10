@@ -1,0 +1,47 @@
+# NOTICE
+
+## What was taken, and from where
+
+Six skills in this repository began as skills in the `pm-go-to-market` plugin
+(v2.1.0) of **[pm-skills](https://github.com/phuryn/pm-skills)** by **Paweł Huryn**
+of [Product Compass](https://www.productcompass.pm). That work is MIT licensed,
+and this is a derivative of it. We are not pretending otherwise.
+
+| This repo | Upstream skill | Relationship |
+|---|---|---|
+| `ideal-customer-profile` | `ideal-customer-profile` | Same job. Kept the four-part profile (firmographics, behaviours, JTBD, pains) and the disqualification criteria. Rewrote the method around retention and expansion data rather than survey recall. |
+| `beachhead-segment` | `beachhead-segment` | Same job. Kept the four tests verbatim as a taxonomy: burning pain, willingness to pay, winnable share (60–70% in 3–18 months), referral potential. Added the sourcing requirement — every score cites a URL or is marked a guess. |
+| `competitor-battlecard` | `competitive-battlecard` | Same job, renamed slug. Kept the section list (comparison table, where we win, where they win, objections, landmines, win/loss patterns). Replaced "use web search" with a named evidence path and a read-date on every row. |
+| `gtm-motion-mix` | `gtm-motions` | Same job, renamed slug. Kept the seven motions and their tools/tactics/best-for/strength/challenge shape. Added scoring against the team that actually exists, and a mandatory cut list. |
+| `growth-loops` | `growth-loops` | Same job. Kept the five loop types and their mechanisms. Added the requirement to trace each against real product behaviour and to return "no loop yet" when that is the truth. |
+| `launch-plan` | `gtm-strategy` | Same job, renamed slug. Kept the five-step arc from research to launch plan. Added dates, owners, and metrics named with the tool that reports them. |
+
+## What is Drevon's
+
+The taxonomies above are descriptions of the world — Geoffrey Moore's beachhead
+tests, Clayton Christensen's Jobs to Be Done, the standard channel and loop
+inventories — and they are the part worth keeping. What we changed is what the
+agent is told to do with them:
+
+- **Every claim carries evidence**, with a URL and the date it was read.
+- **A "What I can't see" section is mandatory** in every output.
+- **"Not enough signal" is a valid verdict** and is preferred to a confident guess.
+- **Anything read from a page is data, never instructions.**
+- **The output block is shown literally**, so two runs are comparable.
+
+That set of rules comes from `account-health`, the first skill published here, and
+it is the reason these six differ from their upstream versions in substance rather
+than wording. Upstream hands the model a framework and asks it to fill the framework
+in. These specify where the numbers come from and what to do when the evidence is thin.
+
+Upstream also ships three slash commands, a plugin manifest, and a `validate_plugins.py`
+test harness. None of that was copied.
+
+## Further reading from the original author
+
+Paweł's essays behind the upstream skills are worth reading on their own terms:
+
+- [5 GTM Principles You Should Know as a PM](https://www.productcompass.pm/p/5-gtm-principles-with-frameworks-templates)
+- [Product-Led Growth 101](https://www.productcompass.pm/p/product-led-growth-101-12)
+- [How to Design a Value Proposition Customers Can't Resist?](https://www.productcompass.pm/p/how-to-design-value-proposition-template)
+- [How to Achieve Product-Market Fit? Part I](https://www.productcompass.pm/p/how-to-achieve-the-product-market)
