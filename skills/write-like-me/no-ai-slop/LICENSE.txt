@@ -1,18 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Drevon
-Portions Copyright (c) 2026 Pawel Huryn
-Portions Copyright (c) 2026 Peter Yang
-
-Six skills in this repository — ideal-customer-profile, beachhead-segment,
-competitor-battlecard, gtm-motion-mix, growth-loops and launch-plan — are
-adapted from the `pm-go-to-market` plugin in https://github.com/phuryn/pm-skills,
-which is MIT licensed and authored by Pawel Huryn (Product Compass). See NOTICE
-for the detail of what was taken and what was changed.
-
-The folder skills/write-like-me/no-ai-slop/ bundles the no-ai-slop skill from
-https://github.com/petergyang/no-ai-slop, which is MIT licensed and authored by
-Peter Yang. Its licence is kept alongside it as LICENSE.txt.
+Copyright (c) 2026 Peter Yang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

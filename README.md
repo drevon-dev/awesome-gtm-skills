@@ -51,6 +51,9 @@ adapted from the MIT-licensed [pm-skills](https://github.com/phuryn/pm-skills) b
 **Paweł Huryn** ([Product Compass](https://www.productcompass.pm)). We kept his
 taxonomies, rewrote the method around evidence, and said so in every file.
 
+`write-like-me` bundles the MIT-licensed [no-ai-slop](https://github.com/petergyang/no-ai-slop)
+by **Peter Yang** as its slop floor, and builds on Nicolas Cole's writing method.
+
 [NOTICE](NOTICE) has the row-by-row detail of what was taken and what changed.
 
 ## Writing a skill
