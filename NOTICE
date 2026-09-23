@@ -16,6 +16,24 @@ and this is a derivative of it. We are not pretending otherwise.
 | `growth-loops` | `growth-loops` | Same job. Kept the five loop types and their mechanisms. Added the requirement to trace each against real product behaviour and to return "no loop yet" when that is the truth. |
 | `launch-plan` | `gtm-strategy` | Same job, renamed slug. Kept the five-step arc from research to launch plan. Added dates, owners, and metrics named with the tool that reports them. |
 
+## Bundled: no-ai-slop, in write-like-me
+
+`skills/write-like-me/no-ai-slop/` is a copy of the **[no-ai-slop](https://github.com/petergyang/no-ai-slop)**
+skill by **Peter Yang**, MIT licensed, taken at commit `000650b` (2 September 2026).
+It ships inside `write-like-me` so a fresh install gets the full slop pass without a
+second install.
+
+| File in this repo | Upstream file | Relationship |
+|---|---|---|
+| `no-ai-slop/RULES.md` | `skills/no-ai-slop/SKILL.md` | Renamed so skill installers do not register it as a separate skill. One workflow line changed: "3-5 voice signals, kept internal" instead of an open list of traits. Everything else verbatim. |
+| `no-ai-slop/eval.md` | `skills/no-ai-slop/eval.md` | One check added to the final read: the edit was verified against the file without separate editor and evaluator agents. Everything else verbatim. |
+| `no-ai-slop/LICENSE.txt` | `LICENSE` | Verbatim. |
+
+What `write-like-me` adds on top is Drevon's: the voice library, the twelve dials, the
+evolve protocol, and the two measurement scripts. The method behind it is Nicolas
+Cole's, from [his September 2026 conversation with Greg Isenberg](https://www.youtube.com/watch?v=YuOSyRj3sXg),
+summarised in our own words and credited in the skill.
+
 ## What is Drevon's
 
 The taxonomies above are descriptions of the world — Geoffrey Moore's beachhead
